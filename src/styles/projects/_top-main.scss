@@ -1,0 +1,9 @@
+.p-top-main {
+  // background: #fff;
+  opacity: 0;
+  transition: 600ms;
+}
+
+.p-top-main.active {
+  opacity: 1;
+}

@@ -1,0 +1,10 @@
+.c-slide-fadein {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 500ms;
+}
+
+.c-slide-fadein.active {
+  opacity: 1;
+  transform: translateY(0);
+}

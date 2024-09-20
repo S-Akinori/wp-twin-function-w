@@ -1,0 +1,7 @@
+@use '../global/' as g;
+
+.p-post__title {
+  padding: 1rem;
+  background: g.$main_color;
+  color: g.$main_color_cont;
+}

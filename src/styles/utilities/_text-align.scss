@@ -1,0 +1,32 @@
+@use '../global/' as g;
+
+.u-text-left {
+  text-align: left;
+}
+.u-text-center {
+  text-align: center;
+}
+.u-text-right {
+  text-align: right;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+.md\:w-1\/2 {
+  @include g.mq('md') {
+    width: 50%;
+  }
+}
+.w-2\/3 {
+  width: 66%;
+}
+.md\:w-2\/3 {
+  @include g.mq('md') {
+    width: 66%;
+  }
+}
+
+.border-none {
+  border: none;
+}

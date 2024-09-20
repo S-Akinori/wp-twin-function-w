@@ -1,0 +1,36 @@
+@use '../global/' as g;
+
+.p-single {
+  margin-top: 2rem;
+}
+
+.p-single p {
+  margin-bottom: 1rem;
+}
+.p-single h1 {
+  color: g.$main-color;
+  font-size: 1.5rem;
+}
+.p-single h2 {
+  padding: .5rem 1rem;
+  margin: 2rem 0 1rem;
+  font-size: 1.25rem;
+  background: g.$main_color;
+  color: g.$main_color_cont;
+}
+.p-single h3 {
+  padding: .5rem 1rem;
+  margin: 2rem 0 1rem;
+  font-size: 1.125rem;
+  border-bottom: 1px solid g.$main_color;
+}
+
+.p-single ul, .p-single ol {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 2px 3px 6px rgba($color: #aaa, $alpha: 0.5);
+}
+
+.p-single ul li, .p-single ol li {
+  border-bottom: 1px solid g.$main_color;
+}

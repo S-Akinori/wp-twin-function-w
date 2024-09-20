@@ -1,0 +1,8 @@
+.c-fade-in {
+  opacity: 0;
+  transition: 300ms;
+}
+
+.c-fade-in.active {
+  opacity: 1;
+}

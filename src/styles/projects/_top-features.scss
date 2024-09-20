@@ -1,0 +1,14 @@
+@use '../global/' as g;
+
+.p-top-features__item__inner {
+  @include g.mq('md') {
+    background: linear-gradient(to right, rgba($color: g.$main_color, $alpha: 0), rgba($color: g.$main_color, $alpha: 1.0) 50%, rgba($color: g.$main_color, $alpha: 1.0));
+  }
+  background: rgba($color: g.$main_color, $alpha: 0.7);
+  padding: 3rem 1rem;
+}
+
+.p-top-features__item__inner__title {
+  color: g.$main_color;
+  text-shadow: 0 0 6px g.$main_color_cont;
+}

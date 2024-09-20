@@ -1,0 +1,14 @@
+@use '../global/' as g;
+
+.wp-block-table tr td,
+.wp-block-table tr th {
+  border: none;
+}
+
+.wp-block-table tr td:first-of-type {
+  @include g.mq('md') {
+    width: 200px;
+  }
+  white-space: nowrap;
+  vertical-align: top;
+}

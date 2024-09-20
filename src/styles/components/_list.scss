@@ -1,0 +1,19 @@
+@use '../global/' as g;
+
+.c-list__item {
+  position: relative;
+  padding: 1rem 0;
+  border-bottom: 1px solid g.$main_color;
+}
+
+.c-list__item:has(.c-list__item__link)::after {
+  content: '\e8e4';
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}

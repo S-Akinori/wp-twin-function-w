@@ -1,0 +1,7 @@
+@use '../global/' as g;
+
+.c-title-text__title {
+  font-size: 2rem;
+  color: g.$main_color;
+  margin-bottom: 1rem;
+}

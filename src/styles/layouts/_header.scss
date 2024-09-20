@@ -1,0 +1,15 @@
+@use '../global/' as g;
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+  padding: 1rem;
+  min-height: 64px;
+  width: 100%;
+  // background: g.$base_color_cont;
+  @include g.mq('md') {
+    padding: 1rem 3rem;
+  }
+}
