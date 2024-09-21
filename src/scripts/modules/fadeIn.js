@@ -1,6 +1,5 @@
 const initialOption = {
   root: null,
-  rootMargin: '-100px',
   threshold: 0,
   triggerOnce: true
 }

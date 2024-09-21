@@ -1,0 +1,15 @@
+@use '../global/' as g;
+.p-top-intro {
+    position: relative;
+    background: url('images/bg-top-intro.jpg') no-repeat center bottom / cover;
+}
+
+.p-top-intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color: g.$main_color, $alpha: 0.7);
+}

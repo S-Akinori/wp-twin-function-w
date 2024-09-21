@@ -25,7 +25,6 @@ body {
 main {
   padding-bottom: 4rem;
   min-height: 100vh;
-  padding-top: 5rem;
 }
 video {
   width: 100%;
@@ -36,6 +35,7 @@ h1 {
   margin-bottom: 2rem;
 }
 h2 {
+  margin-bottom: 1.5rem;
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -64,7 +64,9 @@ a:hover {
   opacity: 0.8;
 }
 img {
-  max-width: 100%;
+  max-width: 100%;  /* 親要素の幅に合わせて拡大・縮小 */
+  height: auto;     /* 縦横比を保ったまま高さを自動調整 */
+  display: block; 
 }
 
 li {

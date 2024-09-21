@@ -1,15 +1,32 @@
 @use '../global/' as g;
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background: rgba($color: g.$main_color, $alpha: 0.7);
+  color: g.$main_color_cont;
+  padding: .5rem;
+  font-weight: bold;
+}
+.header__nav {
+  display: none;
+  @include g.mq('md') {
+    display: block;
+  }
+}
+
+.header__nav a {
+  color: g.$main_color_cont;
+}
+
+.header__nav .menu ul {
   display: flex;
   align-items: center;
-  z-index: 9999;
-  padding: 1rem;
-  min-height: 64px;
-  width: 100%;
-  // background: g.$base_color_cont;
-  @include g.mq('md') {
-    padding: 1rem 3rem;
-  }
+  justify-content: end;
+  flex-wrap: wrap;
 }

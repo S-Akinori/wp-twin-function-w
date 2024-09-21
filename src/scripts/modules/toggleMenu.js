@@ -1,5 +1,5 @@
 export const toggleMenu = () => {
-  $('.js-menu-button').on('click', () => {
-    $('#jsNav').fadeToggle();
+  $('.js-menu-toggler').on('click', function() {
+    $('.sp-menu-container').toggleClass('active');
   })
 }
