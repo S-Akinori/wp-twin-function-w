@@ -8,12 +8,6 @@
   }
 }
 
-.footer__top {
-  @include g.mq('md') {
-    display: flex;
-    justify-content: space-between;
-  }
-}
 
 .footer__link-list {
   @include g.mq('md') {
@@ -34,4 +28,8 @@
 
 .footer__nav a {
   color: g.$main_color_cont;
+}
+
+.footer__nav .menu ul, .footer__nav .menu {
+  justify-content: center;
 }

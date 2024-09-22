@@ -69,6 +69,10 @@ img {
   display: block; 
 }
 
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}
 li {
   padding: .5rem 0;
 }

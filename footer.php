@@ -2,13 +2,13 @@
 <footer class="footer">
   <div class="container mx-auto">
     <div class="footer__top">
-      <div class="md:flex">
+      <div class="md:flex items-center">
         <div class="flex items-center">
           <div class="c-logo mx-auto">
             <img class="mx-auto md:ml-0" src="<?= get_option('company0_logo'); ?>" alt="<?= get_option('company0_name'); ?>" />
           </div>
         </div>
-        <div>
+        <div class="ml-auto">
           <nav class="footer__nav">
             <?php
             wp_nav_menu(array(
